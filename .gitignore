@@ -1,0 +1,30 @@
+# 优先忽略虚拟环境（关键！确保路径和你本地一致）
+.venv/
+env/
+venv/
+ENV/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# 数据文件（可选，避免大文件）
+data/*.csv
+data/*.xlsx
+
+# 预测结果/日志
+*.csv
+*.log
+*.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter相关（如果有）
+.ipynb_checkpoints/
