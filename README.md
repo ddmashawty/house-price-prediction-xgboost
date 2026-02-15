@@ -13,7 +13,12 @@
    ```bash
 
    pip install -r requirements.txt
-
+   
 2. 准备数据：将 train.csv/test.csv 放入data/目录（路径可在代码中修改）；
-3. 运行代码：python main.py
+3. 运行代码：
+   ```bash
+
+   python main.py
+   
 4. 结果输出：预测结果保存为xgboost_predictions.csv
+
